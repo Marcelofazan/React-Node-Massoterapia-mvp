@@ -31,7 +31,7 @@ VSCode
      |---- App Init / (http://localhost:3000/)
 ```
 
-#### Execução da aplicação Backend (Node.js)
+#### Executar aplicação Backend (Node.js)
 - Recuperar as dependencias do projeto node_modules . 
 ```bash
 npm install express
@@ -49,7 +49,7 @@ ou
 node index.js
 ```
 
-#### Execução da aplicação Backend (React)
+#### Executar aplicação Frontend (React)
 - Recuperar as dependencias do projeto node_modules .
 ```bash
 npm install --legacy-peer-deps
