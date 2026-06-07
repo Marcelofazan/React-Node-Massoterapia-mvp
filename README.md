@@ -31,7 +31,9 @@ VSCode
      |---- App Init / (http://localhost:3000/)
 ```
 
-#### Backend (Node.js)
+## 📁 Backend
+#### 🔄 Executar a aplicação (Node.js)
+
 - Recuperar as dependencias do projeto node_modules . 
 ```bash
 npm install express
@@ -42,7 +44,6 @@ npm install express
 npm install -g nodemon
 ```
 
-#### 🔄 Executar a aplicação
 - Executar o Build do Projeto
 ```bash
 nodemon index.js
@@ -50,13 +51,13 @@ ou
 node index.js
 ```
 
-#### Frontend (React)
+## 🌍 Frontend
+#### 🔄 Executar a aplicação (React)
 - Recuperar as dependencias do projeto node_modules .
 ```bash
 npm install --legacy-peer-deps
 ```
 
-#### 🔄 Executar a aplicação
 - Executar o Build do Projeto
 ```bash
 yarn start  
