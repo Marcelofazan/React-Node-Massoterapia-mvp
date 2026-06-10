@@ -51,7 +51,7 @@ ou
 node index.js
 ```
 
-## 🌍 Frontend
+## 📁 Frontend
 #### 🔄 Executar a aplicação (React)
 - Recuperar as dependencias do projeto node_modules .
 ```bash
