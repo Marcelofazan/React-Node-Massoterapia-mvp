@@ -30,6 +30,19 @@ VSCode
 |----| Frontend
      |---- App Init / (http://localhost:3000/)
 ```
+#### ⚠️ String de conexão do banco
+- Modifique a string de conexão no arquivo **db.js**, no trecho indicado:
+
+```bash
+        const sequelize = new Sequelize('SEUBANCO', 'postgres', 'SUASENHA', {
+        host: 'localhost',
+        dialect: 'postgres',
+        define: {
+            timestamps: false,
+            },
+```
+
+O script para criação da tabela do exemplo encontra-se na pasta **Database**.
 
 ## 📁 Backend
 #### 🔄 Executar a aplicação (Node.js)
@@ -63,19 +76,6 @@ npm install --legacy-peer-deps
 yarn start  
 ```
 
-#### ⚠️ String de conexão do banco
-- Modifique a string de conexão no arquivo **db.js**, no trecho indicado:
-
-```bash
-        const sequelize = new Sequelize('SEUBANCO', 'postgres', 'SUASENHA', {
-        host: 'localhost',
-        dialect: 'postgres',
-        define: {
-            timestamps: false,
-            },
-```
-
-O script para criação da tabela do exemplo encontra-se na pasta **Database**.
 
 #### Aqui está uma demonstração do Projeto
 
