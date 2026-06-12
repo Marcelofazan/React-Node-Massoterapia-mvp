@@ -1,5 +1,4 @@
-## 🌐 Node-React-Massoterapia-mvp
-
+## 🌐 React-Node-Massoterapia-mvp
 Exemplo de criação de aplicativo de agendamento de sessões de massoterapia em NodeJS e React com banco de dados Postgree. 
 
 #### 🎨 Aqui está uma demonstração do Projeto
