@@ -2,6 +2,9 @@
 
 Exemplo de criação de aplicativo de agendamento de sessões de massoterapia em NodeJS e React com banco de dados Postgree. 
 
+#### 🎨 Aqui está uma demonstração do Projeto
+<img width="1316" height="607" alt="App-Massoterapeuta-Node-React" src="https://github.com/user-attachments/assets/051fda55-b9c6-46da-8d01-33012383f17e" />
+
 #### O que voçê vai ver nesse Projeto
 
 | Node.js | Descrição |
@@ -75,8 +78,3 @@ npm install --legacy-peer-deps
 ```bash
 yarn start  
 ```
-
-
-#### 🎨 Aqui está uma demonstração do Projeto
-
-<img width="1316" height="607" alt="App-Massoterapeuta-Node-React" src="https://github.com/user-attachments/assets/051fda55-b9c6-46da-8d01-33012383f17e" />
