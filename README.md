@@ -5,7 +5,7 @@ Exemplo de criação de aplicativo de agendamento de sessões de massoterapia em
 #### 🎨 Aqui está uma demonstração do Projeto
 <img width="700" height="350" alt="App-Massoterapeuta-Node-React" src="https://github.com/user-attachments/assets/051fda55-b9c6-46da-8d01-33012383f17e" />
 
-#### 📋 O que voçê vai ver nesse Projeto
+#### 📋 O que você vai encontrar neste projeto
 | Node.js | Descrição |
 |-----------|-----------|
 | **Express JSON** | É um middleware embutido responsável por analisar (parsear) corpos de requisições HTTP recebidas que contenham dados no formato JSON.  |
