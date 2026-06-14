@@ -4,12 +4,37 @@ Exemplo de aplicativo de agendamento de sessões de massoterapia em NodeJS e Rea
 #### 🎨 Aqui está uma demonstração do Projeto
 <img width="700" height="350" alt="App-Massoterapeuta-Node-React" src="https://github.com/user-attachments/assets/051fda55-b9c6-46da-8d01-33012383f17e" />
 
+```bash
+VSCode 
+|----| Backend
+     |---- API Start / (http://localhost:3333/)
+VSCode
+|----| Frontend
+     |---- App Init / (http://localhost:3000/)
+```
+
+## 📁 Frontend
 #### 📋 O que você vai encontrar neste projeto
 | Node.js | Descrição |
 |-----------|-----------|
 | **Express JSON** | É um middleware embutido responsável por analisar (parsear) corpos de requisições HTTP recebidas que contenham dados no formato JSON.  |
 |  **Express Router** | Reponsável por criar manipuladores de rotas modulares e montáveis.  |
 |  **Sequelize** |  Mapeador objeto-relacional (ORM) permite que manipular dados usando objetos e métodos JavaScript, eliminando a necessidade de escrever queries SQL. |
+
+
+#### 🔄 Executar a aplicação (React)
+- Recuperar as dependencias do projeto node_modules .
+```bash
+npm install --legacy-peer-deps
+```
+
+- Executar o Build do Projeto
+```bash
+yarn start  
+```
+
+## 📁 Backend
+#### 📋 O que você vai encontrar neste projeto
 
 | React | Descrição |
 |-----------|-----------|
@@ -23,14 +48,6 @@ Exemplo de aplicativo de agendamento de sessões de massoterapia em NodeJS e Rea
 #### Requisitos do Projeto
 - Necessários abrir duas instâncias do VSCode: 
 
-```bash
-VSCode 
-|----| Backend
-     |---- API Start / (http://localhost:3333/)
-VSCode
-|----| Frontend
-     |---- App Init / (http://localhost:3000/)
-```
 #### ⚠️ String de conexão do banco
 - Modifique a string de conexão no arquivo **db.js**, no trecho indicado:
 
@@ -45,7 +62,6 @@ VSCode
 
 O script para criação da tabela do exemplo encontra-se na pasta **Database**.
 
-## 📁 Backend
 #### 🔄 Executar a aplicação (Node.js)
 
 - Recuperar as dependencias do projeto node_modules . 
@@ -65,14 +81,3 @@ ou
 node index.js
 ```
 
-## 📁 Frontend
-#### 🔄 Executar a aplicação (React)
-- Recuperar as dependencias do projeto node_modules .
-```bash
-npm install --legacy-peer-deps
-```
-
-- Executar o Build do Projeto
-```bash
-yarn start  
-```
